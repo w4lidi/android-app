@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SubmissionAkhirVgetables</string>
+
+    <string name="name">Nama sayur</string>
+    <string name="description">Deskripsi</string>
+
+    <string-array name="vegetables_image">
+        <item>@drawable/brokoli</item>
+        <item>@drawable/kubis</item>
+    </string-array>
+
+    <string-array name="vegetables_name">
+        <item>Brokoli</item>
+        <item>Kubis</item>
+    </string-array>
+
+    <string-array name="vegetables_latin_name">
+        <item>latnin brokoli</item>
+        <item>latin kubis</item>
+    </string-array>
+
+    <string-array name="vegetables_vitamins">
+        <item>a b c</item>
+        <item>d e f</item>
+    </string-array>
+
+    <string-array name="vegetables_description">
+        <item>deac kubis</item>
+        <item>desc brokolo</item>
+    </string-array>
+</resources>
