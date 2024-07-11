@@ -6,6 +6,8 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class Vegetables(
     val name: String,
+    val latinName : String,
+    val nutrition: String,
     val description: String,
     val photo: Int
 ) : Parcelable

@@ -1,31 +1,139 @@
 <resources>
-    <string name="app_name">SubmissionAkhirVgetables</string>
+    <string name="app_name">Submissio Akhir Dicoding</string>
 
     <string name="name">Nama sayur</string>
     <string name="description">Deskripsi</string>
+    <string name="sample_text">Sample Text</string>
+
+    <string name="about_me">About Me</string>
+
+
+    <string name="sample">Edible shoots with tender stalks, often green or purple, and a mild, earthy flavor. Asparagus is rich in essential nutrients, including vitamins A, C, and K, as well as folate. Known for its anti-inflammatory properties, asparagus may contribute to heart health and digestive well-being. Widely cultivated in regions like Europe, North America, and Asia, it thrives in well-drained soils and temperate climates.</string>
+
+
+    <string name="home_title">Vegetables</string>
+    <string name="title_details">%1$s %2$s</string>
+
+    <string name="detail"> Detail</string>
+    <string name="button_share">Share This</string>
+
+
+    <string name="about_title">Abaout Me</string>
+    <string name="my_name">Walidi Wahyu Pratama</string>
+    <string name="my_email">walidiwahyuoratama@gmail.com</string>
+
+    <string name="ria_name">Ria Rizkina</string>
+    <string name="ria_email">riarizkina20@gmail.com</string>
+
+
+    <string name="grid">Grid</string>
 
     <string-array name="vegetables_image">
+        <item>@drawable/asparagus</item>
+        <item>@drawable/bitter_gourd</item>
         <item>@drawable/brokoli</item>
+        <item>@drawable/cabbage</item>
+        <item>@drawable/carrot</item>
+        <item>@drawable/celery</item>
+        <item>@drawable/chayot</item>
+        <item>@drawable/chillies</item>
+        <item>@drawable/corn</item>
+        <item>@drawable/cucumber</item>
+        <item>@drawable/eggplant</item>
         <item>@drawable/kubis</item>
+        <item>@drawable/paprika</item>
+        <item>@drawable/peas</item>
+        <item>@drawable/potatos</item>
+        <item>@drawable/pumkin</item>
+        <item>@drawable/radish</item>
+        <item>@drawable/tomato</item>
     </string-array>
 
     <string-array name="vegetables_name">
-        <item>Brokoli</item>
+        <item>Asparagus</item>
+        <item>Bitter Gourd</item>
+        <item>Broccoli</item>
+        <item>Cabbage</item>
+        <item>Carrot</item>
+        <item>Celery</item>
+        <item>Chayote</item>
+        <item>Chillies</item>
+        <item>Corn</item>
+        <item>Cucumber</item>
+        <item>Eggplant</item>
         <item>Kubis</item>
+        <item>Paprika</item>
+        <item>Peas</item>
+        <item>Potatoes</item>
+        <item>Pumpkin</item>
+        <item>Radish</item>
+        <item>Tomato</item>
+
     </string-array>
 
     <string-array name="vegetables_latin_name">
-        <item>latnin brokoli</item>
-        <item>latin kubis</item>
+        <item>Asparagus Officinalis</item>
+        <item>Momordica Charantia</item>
+        <item>Brassica Oleracea Var. Italica</item>
+        <item>Brassica Oleracea</item>
+        <item>Daucus Carota</item>
+        <item>Apium Graveolens</item>
+        <item>Sechium Edule</item>
+        <item>Capsicum Spp.</item>
+        <item>Zea Mays</item>
+        <item>Cucumis Sativus</item>
+        <item>Solanum Melongena</item>
+        <item>Brassica Oleracea</item>
+        <item>Capsicum Annuum</item>
+        <item>Pisum Sativum</item>
+        <item>Solanum Tuberosum</item>
+        <item>Cucurbita Pepo</item>
+        <item>Raphanus Sativus</item>
+        <item>Solanum Lycopersicum</item>
+
+
     </string-array>
 
-    <string-array name="vegetables_vitamins">
-        <item>a b c</item>
-        <item>d e f</item>
+    <string-array name="vegetables_nutrition">
+        <item>Fiber and Folate</item>
+        <item>Bitter Compounds and Vitamins</item>
+        <item>Vitamins, Minerals, and Fiber</item>
+        <item>Fiber and Antioxidants</item>
+        <item>Vitamins, Beta-Carotene, and Fiber</item>
+        <item>Vitamins K and C, Potassium</item>
+        <item>Folate, Fiber, and Antioxidants</item>
+        <item>Vitamin C and Capsaicin</item>
+        <item>Fiber, Vitamins, and Minerals</item>
+        <item>Hydration and Vitamins</item>
+        <item>Fiber, Vitamins, and Antioxidants</item>
+        <item>Fiber, Vitamins, and Minerals</item>
+        <item>Vitamins A, B6, and C</item>
+        <item>Protein, Fiber, and Vitamins</item>
+        <item>Carbohydrates, Vitamins, and Potassium</item>
+        <item>Vitamins A, C, and E, Beta-Carotene</item>
+        <item>Fiber and Vitamin C</item>
+        <item>Vitamins A, C, and K, Lycopene</item>
     </string-array>
 
     <string-array name="vegetables_description">
-        <item>deac kubis</item>
-        <item>desc brokolo</item>
+        <item>Edible shoots with tender stalks, often green or purple, and a mild, earthy flavor. Asparagus is rich in essential nutrients, including vitamins A, C, and K, as well as folate. Known for its anti-inflammatory properties, asparagus may contribute to heart health and digestive well-being. Widely cultivated in regions like Europe, North America, and Asia, it thrives in well-drained soils and temperate climates.</item>
+        <item>Bitter and ridged, bitter gourd is a green vegetable popular in Asian cuisine. Its unique taste comes from compounds with potential health benefits, such as blood sugar regulation. Cultivated in tropical and subtropical regions, including South Asia and Southeast Asia, it thrives in warm climates with well-drained soil. Rich in vitamins, minerals, and antioxidants, bitter gourd is a nutritious addition to various dishes.</item>
+        <item>Broccoli, a green vegetable with a tree-like appearance, is high in fiber, vitamins C and K, and antioxidants. Consuming broccoli is associated with numerous health benefits, including heart health and immune system support. Cultivated globally, especially in Europe, North America, and Asia, it thrives in cool climates and well-drained soil.</item>
+        <item>Cabbage, a leafy vegetable with tightly packed leaves, is rich in fiber, vitamins C and K, and antioxidants. Low in calories, cabbage is associated with potential digestive health benefits and anti-inflammatory effects. Commonly grown worldwide, it is a staple in many cuisines, particularly in Europe and Asia.</item>
+        <item>Carrots, orange root vegetables with a sweet taste, are rich in beta-carotene, vitamins A, and K. Supporting eye health and immune function, carrots are a nutritious snack and culinary ingredient. Cultivated globally, carrots thrive in well-drained soils and temperate climates.</item>
+        <item>Celery, with crunchy and watery stalks, is low in calories and a good source of antioxidants and vitamins, including vitamin K. Commonly consumed for its hydrating properties, celery may contribute to heart health. Cultivated in various regions, including Europe, North America, and Asia, it prefers cool temperatures and ample sunlight.</item>
+        <item>Chayote, a green, wrinkled, and pear-shaped vegetable, is mild and versatile. Rich in dietary fiber, vitamins C and B, and minerals like potassium, chayote is hydrating and may support digestion. Cultivated in tropical and subtropical regions, including Latin America and Southeast Asia, it thrives in warm climates.</item>
+        <item>Spicy and pungent, chillies are peppers available in various varieties. Containing capsaicin, with potential metabolism-boosting properties, chillies are high in vitamins A and C. Grown globally, chillies are integral to many cuisines, especially in Asia and Latin America.</item>
+        <item>Yellow sweet kernels on a cob, corn is a starchy vegetable providing carbohydrates, fiber, and various vitamins and minerals, including folate. A staple crop in North America, corn is cultivated worldwide in regions with warm temperatures and well-drained soils.</item>
+        <item>Long and cylindrical, cucumbers are green vegetables with a crisp texture. High in water content and a source of vitamins K and C, cucumbers are hydrating and may support skin health. Cultivated globally, cucumbers thrive in well-drained soils and warm climates.</item>
+        <item>Purple and versatile, eggplant is rich in antioxidants and dietary fiber, with a mild flavor. Cultivated in many regions, including Asia, the Middle East, and the Mediterranean, eggplant may have anti-inflammatory and heart-protective effects.</item>
+        <item>Round and leafy, kubis (cabbage) offers nutritional benefits, including fiber and vitamins. A cruciferous vegetable, it is grown worldwide and is a staple in various cuisines, including European, Asian, and American.</item>
+        <item>Colorful and mild-flavored, paprika is a spice made from dried and ground peppers. Containing antioxidants, vitamins, and capsaicin, paprika is commonly produced in countries like Hungary and Spain and is used in various European cuisines.</item>
+        <item>Small, round, and green, peas are legumes rich in fiber, protein, vitamins, and minerals, including vitamin C and iron. Cultivated globally, peas are common ingredients in many dishes, especially in Europe, North America, and Asia.</item>
+        <item>Starchy and tuberous, potatoes are underground vegetables providing carbohydrates, potassium, and vitamins C and B6. A global staple, potatoes are grown in diverse climates, with major production in Europe, Asia, and North America.</item>
+        <item>Orange-fleshed and hearty, pumpkin is rich in beta-carotene, fiber, and vitamins A and C. Cultivated in various regions, including North America, Europe, and Asia, pumpkin may support eye health, immune function, and skin health.</item>
+        <item>Small and pungent, radishes are root vegetables available in various colors. Low in calories and a source of vitamins C and B6, radishes are hydrating and may contribute to digestion. Cultivated globally, radishes are used in salads, pickles, and various culinary applications.</item>
+        <item>Red and juicy, tomatoes are fruits used in savory dishes. High in vitamins A and C, potassium, and the antioxidant lycopene, tomatoes are grown globally and are key ingredients in many cuisines, particularly in Mediterranean and Latin American dishes.</item>
+
     </string-array>
 </resources>

@@ -3,32 +3,62 @@ package com.dicoding.submissionakhirvgetables
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.LinearLayoutManager
 
 
+
+
+
 class MainActivity : AppCompatActivity() {
     private lateinit var rvVegetables: RecyclerView
+    private lateinit var aboutPage : ImageView
     private val list = ArrayList<Vegetables>()
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
+
         super.onCreate(savedInstanceState)
+        Thread.sleep(500)
+        installSplashScreen()
         setContentView(R.layout.activity_main)
+
+
+        aboutPage = findViewById(R.id.about_Page)
+
 
         rvVegetables = findViewById(R.id.vegetablesList)
         rvVegetables.setHasFixedSize(true)
 
         list.addAll(geVegetablestList())
         showRecyclerList()
+
+
+        aboutPage.setOnClickListener{
+            val moveIntent = Intent(this@MainActivity, AboutMe::class.java)
+            startActivity(moveIntent)
+        }
+
+
     }
 
+
     private fun geVegetablestList(): ArrayList<Vegetables> {
+
         val vegetableName = resources.getStringArray(R.array.vegetables_name)
         val vegetablesDescription = resources.getStringArray(R.array.vegetables_description)
         val vegetablesPhoto = resources.obtainTypedArray(R.array.vegetables_image)
+        val vegetablesLatinName = resources.getStringArray(R.array.vegetables_latin_name)
+        val vegetablesNutrition = resources.getStringArray(R.array.vegetables_nutrition)
         val listHero = ArrayList<Vegetables>()
         for (i in vegetableName.indices) {
             val hero = Vegetables(
                 vegetableName[i],
+                vegetablesLatinName[i],
+                vegetablesNutrition[i],
                 vegetablesDescription[i],
                 vegetablesPhoto.getResourceId(i, -1)
 

@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class RvAdapter(private val listVegetables : ArrayList<Vegetables>) : RecyclerView.Adapter<RvAdapter.ListViewHolder>() {
@@ -18,6 +19,8 @@ class RvAdapter(private val listVegetables : ArrayList<Vegetables>) : RecyclerVi
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imgVegetable: ImageView = itemView.findViewById(R.id.img_vegetables_photo)
         val vegetableName: TextView = itemView.findViewById(R.id.tv_vegetable_name)
+        val vegetablesLatinName : TextView = itemView.findViewById(R.id.tv_vegetable_latinName)
+        val vegetableNutrition : TextView = itemView.findViewById(R.id.tv_vegetable_nutrition)
         val vegetableDescription: TextView = itemView.findViewById(R.id.tv_vegetable_description)
     }
 
@@ -31,10 +34,12 @@ class RvAdapter(private val listVegetables : ArrayList<Vegetables>) : RecyclerVi
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, photo) = listVegetables[position]
+        val (name,latinName,nutrition, description, photo) = listVegetables[position]
         holder.imgVegetable.setImageResource(photo)
         holder.vegetableName.text = name
-        holder.vegetableDescription.text = description
+        holder.vegetablesLatinName.text = latinName
+        holder.vegetableNutrition.text = nutrition
+        holder.vegetableDescription.text = description.substring(0,100) + "..."
 //        holder.itemView.setOnClickListener {
 //            Toast.makeText(holder.itemView.context, "Kamu memilih " + listVegetables[holder.adapterPosition].name, Toast.LENGTH_SHORT).show()
 //        }
@@ -45,4 +50,6 @@ class RvAdapter(private val listVegetables : ArrayList<Vegetables>) : RecyclerVi
     interface OnItemClickCallback {
         fun onItemClicked(data: Vegetables)
     }
+
+
 }
